@@ -8,11 +8,8 @@
     <body>
         <h3>Formulario para Registrar a los estudiantes</h3><br>
         
-        <form action="#" method="POST"> <label for="fname">Nombre:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Nombre" required><br>
-            
-            <label for="lname">Apellido:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Apellido" required><br>
+        <form action="#" method="POST"><label for="fname">Nombre completo:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nombre y apellidos" required><br>
             
             <label for="email">Correo Electrónico:</label><br>
             <input type="email" id="email" name="email" placeholder="usuario@correo.com" required><br>
@@ -22,6 +19,8 @@
             
             <label for="id">Número de Identificación:</label><br>
             <input type="number" id="id" name="id" placeholder="Solo números" required><br>
+            
+            <!-- https://www.w3schools.com/tags/tag_label.asp -->
             
             <p>Género:</p>
             <input type="radio" id="m" name="genero" value="masculino" required>
@@ -49,7 +48,7 @@
             <!-- https://www.w3schools.com/tags/tag_select.asp -->
 
             <label for="observacion">Observaciones:</label><br>
-            <textarea id="observacion" name="observacion" rows="4" cols="50"></textarea><br><br>
+            <textarea id="observacion" name="observacion" rows="4" cols="50" placeholder="Escriba sus comentarios aquí..."></textarea>
             
             <!-- https://www.w3schools.com/tags/tag_textarea.asp -->
 
